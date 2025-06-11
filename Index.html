@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Developer Landing Page</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Xhoi Kabashi</h1>
+      <p>Web Developer | HTML • CSS • JavaScript</p>
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+  <section class="about container">
+    <h2>About Me</h2>
+    <p>
+      I create modern, responsive websites and web applications. 
+      My focus is on clean design and seamless user experiences.
+    </p>
+  </section>
+  <section class="projects container">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Portfolio Website</strong> – Personal brand and projects showcase.
+      </li>
+      <li>
+        <strong>JavaScript Game</strong> – Fun interactive browser-based game.
+      </li>
+      <li>
+        <strong>Responsive Blog</strong> – Blog platform with dynamic content.
+      </li>
+    </ul>
+  </section>
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+  <footer>
+    <p>© 2025 Xhoi Kabashi. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
